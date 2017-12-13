@@ -1,0 +1,82 @@
+h1,h2{
+    font-family: "Raleway", Arial;
+    font-weight: 500;
+}
+.navbar{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: none;
+    margin-bottom: 0;
+    font-size: 1em;
+}
+.navbar button{
+    color: white;
+}
+.navbar-collapse{
+    border-top: none;
+}
+.navbar-brand{
+    padding: 0;
+    padding-left: 0.5em;
+}
+
+.container-bck{
+    background: url(../img/lynce%20for%20website.png)  top center no-repeat;
+    background-size: contain;
+    padding: 12em;
+}
+.page-header{
+    border: none;
+    margin: 0;
+    padding-top: 6em;
+    padding-bottom: 5em;
+    background: url(../img/gifao.gif) top center no-repeat;
+    background-size: cover;
+    color: white;
+}
+#page-header{
+    background-color: #777;
+    color: white
+}
+h1,h2{
+    margin-top: 1em;
+}
+.text-muted{
+    margin-bottom: 3em;
+}
+section{
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+footer{
+    margin: 0;
+    border: none;
+    background-color: #dfdfdf;
+    font-size: 1.5em;
+    color: #909090;
+}
+footer a{
+    font-size: 1.5em;
+    color: #909090;
+    transition: 0.3s ease-in-out all;
+}
+footer li a:hover{
+    transition: 0.3s ease-in-out all;
+    color: darkgoldenrod;
+}
+#copy{
+    margin: 0;
+    margin-top: 1em;
+}
+header h1{
+    font-weight: 400;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+#construcao{
+    color: orangered;
+}
+@media(min-width: 770px){
+    #collapseable{
+        float: right;
+    }
+}
