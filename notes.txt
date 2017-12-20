@@ -1,0 +1,2 @@
+pantone's 2018 color = rgb 95 75 139
+                     = #5f4b8b
