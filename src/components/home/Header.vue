@@ -1,24 +1,24 @@
 <template>
-      <header class="container-fluid">
-      <b-jumbotron
-        id="welcome-mat"
-        class="container bx-0 text-center bg-transparent">
-        <template slot="header">
-          We build code.
-        </template>
-        <h2>
-          Lynce Development
-        </h2>
-        <button
-          class="btn btn-primary">
-          <span class="fa fa-"></span> Nossos projetos
-        </button>
-        <button
-          class="btn btn-outline-primary">
-          <span class="fa fa-"></span> Trabalhe conosco
-        </button>
-      </b-jumbotron>
-    </header>
+  <header class="container-fluid">
+    <b-jumbotron
+      id="welcome-mat"
+      class="container bx-0 text-center bg-transparent">
+      <template slot="header">
+        We build code.
+      </template>
+      <h2>
+        Lynce Development
+      </h2>
+      <button
+        class="btn btn-primary">
+        <span class="fa fa-"></span> Nossos projetos
+      </button>
+      <button
+        class="btn btn-outline-primary">
+        <span class="fa fa-"></span> Trabalhe conosco
+      </button>
+    </b-jumbotron>
+  </header>
 </template>
 
 <script>
@@ -31,6 +31,12 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+  header {
+    padding-top: 8em;
+    @media (min-width: 578px) {
+      padding-top: 10em;
+    }
+    padding-bottom: 10em;
+  }
 </style>

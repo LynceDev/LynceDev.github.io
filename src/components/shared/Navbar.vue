@@ -5,7 +5,7 @@
     <div class="container">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
       <b-navbar-brand href="#">
-        NavBar
+        Lynce Dev
       </b-navbar-brand>
 
       <b-collapse is-nav id="nav_collapse">
@@ -14,11 +14,6 @@
             class="nav-link"
             :to="{ name: 'Projects' }">
             Projetos
-          </router-link>
-          <router-link
-            class="nav-link"
-            :to="{ name: 'Members' }">
-            Membros
           </router-link>
           <router-link
             class="nav-link"

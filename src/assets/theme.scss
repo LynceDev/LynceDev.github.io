@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Open+Sans|Roboto|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Nunito|Quicksand');
+
+$txt-color: #222 !important;
+$alt-txt-color: #e0e0e0 !important;
+// $txt-highlight-color: #;
+
+$dark-bg: $txt-color;
+$light-bg: $alt-txt-color;
+
+$txt-family: 'IBM Plex Sans', 'Open Sans', 'Roboto', 'Source Sans Pro',  Arial, sans-serif;
+$headings-family: 'Quicksand',  Arial, sans-serif;
+
+.dark-bg {
+  background-color: $dark-bg;
+  color: $alt-txt-color;
+}
+
+.light-bg {
+  background-color: $light-bg;
+  color: $txt-color;
+}
