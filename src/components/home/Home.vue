@@ -12,15 +12,21 @@
         </p>
       </div>
     </div>
+    <section>
+
+    </section>
+    <c-members/>
   </div>
 </template>
 
 <script>
 import Header from '@/components/home/Header'
+import Members from '@/components/members/Members'
 
 export default {
   components: {
     'c-header': Header,
+    'c-members': Members,
   },
 
   data () {
@@ -38,7 +44,7 @@ export default {
 
 <style lang="scss">
   .branding {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
   }
 </style>

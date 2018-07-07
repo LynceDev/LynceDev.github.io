@@ -1,7 +1,7 @@
 <template>
   <section>
     <footer
-      class="container-fluid dark-bg">
+      class="container-fluid dark-bg pt-4 pb-4">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-4 col-lg-6 text-left">
@@ -66,5 +66,20 @@ export default {
   .detail{
     background-color: #111;
     color: $alt-txt-color;
+  }
+
+  .list-unstyled {
+    a {
+      li {
+        padding-top: .3em;
+        padding-bottom: .3em;
+        margin-top: .3em;
+        margin-bottom: .3em;
+      }
+
+      &:hover {
+        color: white;
+      }
+    }
   }
 </style>
