@@ -11,11 +11,11 @@
       </h2>
       <button
         class="btn btn-primary">
-        <span class="fa fa-"></span> Nossos projetos
+        Nossos projetos
       </button>
       <button
-        class="btn btn-outline-primary">
-        <span class="fa fa-"></span> Trabalhe conosco
+        class="btn btn-outline-success">
+        Faça um orçamento
       </button>
     </b-jumbotron>
   </header>

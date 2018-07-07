@@ -1,51 +1,57 @@
 <template>
-  <footer
-    class="container-fluid dark-bg">
-    <div class="row">
-      <div class="col-12 col-md-4 col-lg-6 text-left">
-        <ul class="list-unstyled">
-          <router-link
-            :to="{}"
-            :tag="li"
-            class="">
-            <li>
-              Home
-            </li>
-          </router-link>
-          <router-link
-            :to="{}"
-            :tag="li"
-            class="">
-            <li>
-              Projetos
-            </li>
-          </router-link>
-          <router-link
-            :to="{}"
-            :tag="li"
-            class="">
-            <li class="">
-              Contato
-            </li>
-          </router-link>
-        </ul>
-      </div>
-      <div class="col-12 col-md-8 col-lg-6">
-        <!-- <form action="">
-          <div class="form-group">
-            <input
-              type="text"
-              class="form-control mt-2 mb-2">
-            <button
-              class="btn btn-success"
-              >
-              <i class="far fa-envelope"></i> Enviar
-            </button>
+  <section>
+    <footer
+      class="container-fluid dark-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-6 text-left">
+            <ul class="list-unstyled">
+              <router-link
+                :to="{}"
+                class="">
+                <li>
+                  Home
+                </li>
+              </router-link>
+              <router-link
+                :to="{}"
+                class="">
+                <li>
+                  Projetos
+                </li>
+              </router-link>
+              <router-link
+                :to="{}"
+                class="">
+                <li class="">
+                  Contato
+                </li>
+              </router-link>
+            </ul>
           </div>
-        </form> -->
+          <div class="col-12 col-md-8 col-lg-6">
+            <!-- <form action="">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control mt-2 mb-2">
+                <button
+                  class="btn btn-success"
+                  >
+                  <i class="far fa-envelope"></i> Enviar
+                </button>
+              </div>
+            </form> -->
+          </div>
+        </div>
       </div>
+    </footer>
+    <div class="detail container-fluid text-center pt-3 pb-3">
+      <small>
+        Feito em Vue.js e hospedado no Github
+      </small>
     </div>
-  </footer>
+  </section>
 </template>
 
 <script>
@@ -55,5 +61,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @import '../../assets/theme.scss';
 
+  .detail{
+    background-color: #111;
+    color: $alt-txt-color;
+  }
 </style>
